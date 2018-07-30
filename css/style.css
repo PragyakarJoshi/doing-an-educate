@@ -17,9 +17,10 @@ nav {
     height: 100px;
     line-height: 100px;
     background: #fff;
+    z-index: 100;
 }
 .img-logo {
-    height: 30px;
+    height: 25px;
     margin-right: 10px;
 }
 .logo {
@@ -40,6 +41,7 @@ nav ul {
     margin: 0;
     padding-right: 40px;
     transition: 1s;
+    padding-top: 5px;
 }
 
 nav ul li {
@@ -58,7 +60,7 @@ nav ul li a {
     height: 50px;
     padding: 7px 25px;
     background: linear-gradient(to bottom right, #2CC3F2,#0072AD);
-    border-radius: 7px;
+    border-radius: 5px;
     font-size: 14px;
     color: #fff;
 }
@@ -78,7 +80,7 @@ nav ul li a {
 
 .landing {
     padding: 0px 100px 0px 100px;
-    height: 100vh;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,22 +92,22 @@ nav ul li a {
 }
 
 .title-text {
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.6);
 }
 .subtitle-text {
-    font-size: 19px;
+    font-size: 16px;
     margin: 0;
     color: rgba(0, 0, 0, 0.5);
 }
 .btn-more {
-    width: 200px;
+    width: 180px;
     margin-top: 35px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     padding: 12px;
     border: 0;
-    border-radius: 7px;
+    border-radius: 5px;
     color: rgb(255,255,255);
     background: linear-gradient(to bottom right, #2CC3F2,#0072AD);
     font-family: 'Montserrat', sans-serif;
@@ -118,4 +120,75 @@ nav ul li a {
 }
 .img-bottom {
     position: absolute;
+}
+/* -------------------------------- */
+.about-section {
+    background: #EEF1F8;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-container {
+    padding: 50px;
+    align-content: center;
+}
+.about-title {
+    font-size: 26px;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+}
+.about-subtitle {
+    color: rgba(0,0,0,0.4);
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.card {
+    min-height: 300px;
+    width: 250px;
+    background: #ffffff;
+    float: left;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px -6px rgb(212, 212, 212);
+    transition: 0.2s ease;
+    padding: 30px 30px 30px 30px;
+}
+.img-container {
+    height: 200px;
+}
+.img-card {
+    height: 100%;
+    width: 100%;
+}
+.card-title {
+    margin-top: 50px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+}
+.card-description {
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 0;
+}
+.btn-next {
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    background: none;
+    padding: 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+.btn-next:hover {
+    cursor: pointer;
 }
