@@ -1,3 +1,3 @@
-# doing-an-educate
-
-<h3>Wow, Doing me an Educate</h3>
+<h2>Apprentice - Learn & Connect</h2>
+<p>Static Website for Education Institute</p>
+<p>Illustrations Credit: https://undraw.co/illustrations</p>
