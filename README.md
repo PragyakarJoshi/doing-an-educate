@@ -1,3 +1,3 @@
 # doing-an-educate
 
-<h3>Wow, Doing me an Eduate</h3>
+<h3>Wow, Doing me an Educate</h3>
