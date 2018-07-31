@@ -18,6 +18,12 @@ nav {
     line-height: 100px;
     background: #fff;
     z-index: 100;
+    transition: 0.4s ease;
+}
+nav.small {
+    height: 70px;
+    line-height: 70px;
+    transition: 0.4s ease;
 }
 .img-logo {
     height: 25px;
@@ -27,7 +33,7 @@ nav {
     position: fixed;
     float: left;
     padding-left: 100px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .logo a {
     text-decoration: none;
@@ -40,8 +46,8 @@ nav ul {
     text-align: right;
     margin: 0;
     padding-right: 40px;
-    transition: 1s;
-    padding-top: 5px;
+    /* transition: 1s; */
+    /* padding-top: 5px; */
 }
 
 nav ul li {
@@ -120,6 +126,7 @@ nav ul li a {
 }
 .img-bottom {
     position: absolute;
+    z-index: -100;
 }
 /* -------------------------------- */
 .about-section {
@@ -133,13 +140,14 @@ nav ul li a {
 }
 
 .about-container {
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     align-content: center;
 }
 .about-title {
     font-size: 26px;
     color: rgba(0,0,0,0.6);
     margin-bottom: 10px;
+    padding-top: 0;
 }
 .about-subtitle {
     color: rgba(0,0,0,0.4);
@@ -156,7 +164,7 @@ nav ul li a {
     border-radius: 10px;
     box-shadow: 0 5px 20px -6px rgb(212, 212, 212);
     transition: 0.2s ease;
-    padding: 30px 30px 30px 30px;
+    padding: 40px 30px 30px 30px;
 }
 .img-container {
     height: 200px;
@@ -191,4 +199,20 @@ nav ul li a {
 }
 .btn-next:hover {
     cursor: pointer;
+}
+/* -------------------------------- */
+.brands-section {
+    min-height: 100px;
+
+}
+.brands-container {
+    padding: 5px 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+}
+.img-brand {
+    margin: 25px;
+    height: 70px;
 }
