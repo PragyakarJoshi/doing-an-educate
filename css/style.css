@@ -58,7 +58,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -107,6 +107,7 @@ nav ul li a {
     margin: 0;
     color: rgba(0, 0, 0, 0.5);
 }
+
 .btn-more {
     width: 180px;
     margin-top: 35px;
@@ -128,6 +129,20 @@ nav ul li a {
     position: absolute;
     z-index: -100;
 }
+.section-title {
+    font-size: 26px;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+    padding-top: 0;
+    text-align: center;
+}
+.section-subtitle {
+    color: rgba(0,0,0,0.4);
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+}
 /* -------------------------------- */
 .about-section {
     background: #EEF1F8;
@@ -143,18 +158,8 @@ nav ul li a {
     padding: 0px 50px 50px 50px;
     align-content: center;
 }
-.about-title {
-    font-size: 26px;
-    color: rgba(0,0,0,0.6);
-    margin-bottom: 10px;
-    padding-top: 0;
-}
-.about-subtitle {
-    color: rgba(0,0,0,0.4);
-    margin-top: 4px;
-    margin-bottom: 0;
-    font-size: 16px;
-}
+
+
 .card {
     min-height: 300px;
     width: 250px;
@@ -215,4 +220,47 @@ nav ul li a {
 .img-brand {
     margin: 25px;
     height: 70px;
+
+}
+/* -------------------------------- */
+.catalogue-section {
+    background: #FFFFFF;
+    min-height: 300px;
+}
+.catalogue-container {
+    padding: 30px 100px;
+}
+
+/* -------------------------------- */
+.talk-section {
+    background: #EEF1F8;
+    min-height: 300px;
+}
+.talk-container {
+    padding: 30px 100px;
+}
+.form-container{
+    margin: auto;
+    width: 30%;
+    margin-top: 40px;   
+}
+
+/* -------------------------------- */
+.footer-section {
+    background: #EEF1F8;
+    min-height: 50px;
+}
+.footer-container {
+    padding: 30px 100px 30px 100px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+}
+.cr-info {
+    color: rgba(0,0,0,0.5); 
+}
+.footer-logo {
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
