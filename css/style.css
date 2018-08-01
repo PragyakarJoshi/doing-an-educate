@@ -228,7 +228,67 @@ nav ul li a {
     min-height: 300px;
 }
 .catalogue-container {
-    padding: 30px 100px;
+    padding: 50px 200px;
+}
+.course-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.course-container > div {
+    background-color: #EEF1F8;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    z-index: 9;
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.course1 {
+    background: url('../images/courses/design.jpg');
+}
+.course2 {
+    background: url('../images/courses/ml.jpg');
+}
+.course3 {
+    background: url('../images/courses/vr.jpg');
+}
+.course4 {
+    background: url('../images/courses/ds.jpg');
+}
+.course5 {
+    background: url('../images/courses/blockchain.jpg');
+}
+.course6 {
+    background: url('../images/courses/android.jpg');
+}
+
+.overlay {
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    height: 100%;
+    z-index: 11;
+    width: 100%;
+    transition: 0.4s ease;
+    position: rea;
+    padding: 55px 0px;
+}
+.allcourse > .overlay {
+    background-color: #EEF1F8;
+    color: rgba(0,0,0,0.7);
+    z-index: 12;
+}
+.overlay:hover {
+    cursor: pointer;
+    background: rgba(0, 115, 173, 0.7);
+    transition: 0.2s ease;
+    z-index: 13;
+    color: #fff;
 }
 
 /* -------------------------------- */
@@ -244,6 +304,7 @@ nav ul li a {
     width: 30%;
     margin-top: 40px;   
 }
+
 
 /* -------------------------------- */
 .footer-section {

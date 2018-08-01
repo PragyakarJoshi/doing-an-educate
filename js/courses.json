@@ -1,0 +1,22 @@
+{
+    "courses": [
+      {
+        "name": "UI/UX Design",
+        "description": "Learn design focused on user interface and user experience",
+        "price": "799",
+        "image": "design.jpg"
+      },
+      {
+        "name": "Machine Learning",
+        "description": "Learn machine learning concepts with Python ",
+        "price": "999",    
+        "image": "ml.jpg"
+      },
+      {
+        "name": "Virtual Reality",
+        "description": "Learn virtual reality learn virtual reality virtual reality",
+        "price": "999",    
+        "image": "vr.jpg"
+      }
+    ]
+}
