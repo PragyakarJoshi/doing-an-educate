@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-html,
-body {
+
+:root {
+    --primary-bg-color: rgb(238, 241, 248);
+    --secondary-bg-color: rgb(255,255,255);
+    --custom-gradient: linear-gradient(to bottom right, #2CC3F2,#0072AD);
+    --primary-text-color: rgba(0,0,0,0.6);
+    --secondary-text-color: rgba(0,0,0,0.5);
+    --inverted-text-color: rgb(255,255,255);
+    --custom-shadow: 0 5px 20px -6px rgb(212, 212, 212);;
+}
+html,body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #fff;
+    background: var(--secondary-bg-color);
 }
-
 nav {
     position: fixed;
     width: 100%;
     height: 100px;
     line-height: 100px;
-    background: #fff;
+    background: var(--secondary-bg-color);
     z-index: 100;
     transition: 0.4s ease;
 }
@@ -35,55 +42,31 @@ nav.small {
     padding-left: 100px;
     margin-top: 8px;
 }
-.logo a {
-    text-decoration: none;
-    color: rgba(0,0,0,0.6);
-}
-
 nav ul {
     list-style: none;
     overflow: hidden;
     text-align: right;
     margin: 0;
     padding-right: 40px;
-    /* transition: 1s; */
-    /* padding-top: 5px; */
 }
-
 nav ul li {
     display: inline-block;
     padding-right: 60px;
 }
-
 nav ul li a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--primary-text-color);
     font-size: 15px;
     font-weight: 400;
 }
-
 .btn-bg {
     height: 50px;
     padding: 7px 25px;
-    background: linear-gradient(to bottom right, #2CC3F2,#0072AD);
+    background: var(--custom-gradient);
     border-radius: 5px;
     font-size: 14px;
-    color: #fff;
+    color: var(--inverted-text-color);
 }
-
-.menu-icon {
-    line-height: 60px;
-    width: 100%;
-    background: #fff;
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 30px;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 13px;
-    display: none;
-}
-
 .landing {
     padding: 0px 100px 0px 100px;
     height: 98vh;
@@ -100,12 +83,12 @@ nav ul li a {
 .title-text {
     font-size: 32px;
     margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--primary-text-color);
 }
 .subtitle-text {
     font-size: 16px;
     margin: 0;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-text-color);
 }
 
 .btn-more {
@@ -116,7 +99,7 @@ nav ul li a {
     border: 0;
     border-radius: 5px;
     color: rgb(255,255,255);
-    background: linear-gradient(to bottom right, #2CC3F2,#0072AD);
+    background: var(--custom-gradient);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     transition: 0.3s ease;
@@ -131,13 +114,13 @@ nav ul li a {
 }
 .section-title {
     font-size: 26px;
-    color: rgba(0,0,0,0.6);
+    color: var(--primary-text-color);
     margin-bottom: 10px;
     padding-top: 0;
     text-align: center;
 }
 .section-subtitle {
-    color: rgba(0,0,0,0.4);
+    color: var(--secondary-text-color);
     margin-top: 4px;
     margin-bottom: 0;
     font-size: 16px;
@@ -145,7 +128,7 @@ nav ul li a {
 }
 /* -------------------------------- */
 .about-section {
-    background: #EEF1F8;
+    background: var(--primary-bg-color);
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -163,11 +146,11 @@ nav ul li a {
 .card {
     min-height: 300px;
     width: 250px;
-    background: #ffffff;
+    background: var(--secondary-bg-color);
     float: left;
     margin: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 20px -6px rgb(212, 212, 212);
+    box-shadow: var(--custom-shadow);
     transition: 0.2s ease;
     padding: 40px 30px 30px 30px;
 }
@@ -181,34 +164,16 @@ nav ul li a {
 .card-title {
     margin-top: 50px;
     font-size: 18px;
-    color: rgba(0,0,0,0.6);
+    color: var(--primary-text-color);
 }
 .card-description {
     font-size: 14px;
-    color: rgba(0,0,0,0.4);
+    color: var(--secondary-text-color);
     margin-bottom: 0;
-}
-.btn-next {
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    background: none;
-    padding: 20px 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: rgba(0,0,0,0.5);
-    transition: 0.3s ease;
-}
-.btn-next:hover {
-    cursor: pointer;
 }
 /* -------------------------------- */
 .brands-section {
     min-height: 100px;
-
 }
 .brands-container {
     padding: 5px 100px;
@@ -220,11 +185,10 @@ nav ul li a {
 .img-brand {
     margin: 25px;
     height: 70px;
-
 }
 /* -------------------------------- */
 .catalogue-section {
-    background: #FFFFFF;
+    background: var(--secondary-bg-color);
     min-height: 300px;
 }
 .catalogue-container {
@@ -240,7 +204,7 @@ nav ul li a {
 }
 
 .course-container > div {
-    background-color: #EEF1F8;
+    background-color: var(--primary-bg-color);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -261,8 +225,8 @@ nav ul li a {
     padding: 55px 0px;
 }
 .allcourse > .overlay {
-    background-color: #EEF1F8;
-    color: rgba(0,0,0,0.7);
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     z-index: 12;
 }
 .overlay:hover {
@@ -270,12 +234,11 @@ nav ul li a {
     background: rgba(0, 115, 173, 0.7);
     transition: 0.2s ease;
     z-index: 13;
-    color: #fff;
+    color: var(--secondary-bg-color);
 }
-
 /* -------------------------------- */
 .talk-section {
-    background: #EEF1F8;
+    background: var(--primary-bg-color);
     min-height: 300px;
 }
 .talk-container {
@@ -286,20 +249,18 @@ nav ul li a {
     width: 30%;
     margin-top: 40px;   
 }
-
-
 /* -------------------------------- */
 .footer-section {
-    background: #EEF1F8;
+    background: var(--primary-bg-color);
     min-height: 50px;
 }
 .footer-container {
     padding: 30px 100px 30px 100px;
     font-size: 14px;
-    color: rgba(0,0,0,0.7);
+    color: var(--primary-text-color);
 }
 .cr-info {
-    color: rgba(0,0,0,0.5); 
+    color: var(--secondary-text-color); 
 }
 .footer-logo {
     height: 30px;
