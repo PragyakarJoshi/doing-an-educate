@@ -249,24 +249,6 @@ nav ul li a {
     border-radius: 5px;
     overflow: hidden;
 }
-.course1 {
-    background: url('../images/courses/design.jpg');
-}
-.course2 {
-    background: url('../images/courses/ml.jpg');
-}
-.course3 {
-    background: url('../images/courses/vr.jpg');
-}
-.course4 {
-    background: url('../images/courses/ds.jpg');
-}
-.course5 {
-    background: url('../images/courses/blockchain.jpg');
-}
-.course6 {
-    background: url('../images/courses/android.jpg');
-}
 
 .overlay {
     background: rgba(0,0,0,0.2);
