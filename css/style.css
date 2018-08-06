@@ -18,6 +18,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: var(--secondary-bg-color);
 }
+input {
+    font-family: 'Montserrat', sans-serif;
+}
 nav {
     position: fixed;
     width: 100%;
@@ -239,15 +242,53 @@ nav ul li a {
 /* -------------------------------- */
 .talk-section {
     background: var(--primary-bg-color);
-    min-height: 300px;
+    min-height:630px;
 }
 .talk-container {
-    padding: 30px 100px;
+    padding: 50px 100px;
 }
 .form-container{
-    margin: auto;
-    width: 30%;
-    margin-top: 40px;   
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.form-element {
+    width: 75%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    padding: 5px 0;
+    border-bottom: 1.5px solid rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.7);
+    transition: 0.2s ease;
+    font-size: 15px;
+}
+.form-element:focus {
+    outline: none;
+    border-bottom: 1.5px solid #2CC3F2;
+    transition: 0.3s ease;
+}
+::-webkit-input-placeholder {
+    color: rgba(0,0,0,0.3);
+    font-size: 15px;
+    letter-spacing: 1px;    
+}
+#input-message {
+    margin-top: 50px;
+}
+.btn-talk {
+    width: 180px;
+    margin-top: 45px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    background: var(--custom-gradient);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
 }
 /* -------------------------------- */
 .footer-section {
