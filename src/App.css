@@ -60,13 +60,16 @@ nav ul li a {
   font-size: 15px;
   font-weight: 400;
 }
-.btn-bg {
+.btn-sp {
   height: 50px;
   padding: 7px 25px;
   background: var(--custom-gradient);
   border-radius: 5px;
   font-size: 14px;
   color: var(--inverted-text-color);
+}
+.btn-sp:hover {
+  cursor: pointer;
 }
 .landing {
   padding: 0px 100px 0px 100px;

@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from 'react';
+import Button from '../Button';
 
 function Navbar() {
 
@@ -27,7 +28,7 @@ function Navbar() {
           <li><a href="#about">Home</a></li>
           <li><a href="#catalogue">Catalogue</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><a href="#talk" className="btn-bg">Talk to us</a></li>
+          <li><Button text={'Talk to us'} clickHandler={() => {}}/></li>
         </ul>
       </div>
     </nav>
