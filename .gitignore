@@ -1,0 +1,10 @@
+node_modules/
+
+yarn.lock
+
+.vscode
+
+.history
+
+.DS_Store
+
