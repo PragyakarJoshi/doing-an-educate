@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from '../Button';
 
-function Landing() {
+function Landing({ tagline }) {
   return (
     <div className="landing">
       <div className="landing-content">
-        <p className="title-text">The Future of Learning</p>
+        <p className="title-text">{tagline}</p>
         <p className="subtitle-text">We help you build yourself for the future that you deserve</p>
         <Button text={'Learn More'} size={'large'} clickHandler={() => {}} />
       </div>

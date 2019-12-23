@@ -1,0 +1,23 @@
+{
+  "tagline": "The Future of Learning",
+  "infoBlock": [
+    {
+      "id": "1",
+      "title": "Learn",
+      "info": "Learn and Master new skills and abilities everyday",
+      "src": "images/svg/takingnotes.svg"
+    },
+    {
+      "id": "2",
+      "title": "Collaborate",
+      "info": "Meet and Experience working together with new people",
+      "src": "images/svg/analysis.svg"
+    },
+    {
+      "id": "3",
+      "title":"Achieve",
+      "info": "Accomplish things you never thought you could",
+      "src": "images/svg/highfive.svg"
+    }
+  ]
+}
