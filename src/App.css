@@ -62,17 +62,28 @@ nav ul li a {
   font-size: 15px;
   font-weight: 400;
 }
-.btn-sp {
-  height: 50px;
-  padding: 7px 25px;
-  background: var(--custom-gradient);
-  border-radius: 5px;
+.btn {
   font-size: 14px;
+  border-radius: 5px;
+  background: var(--custom-gradient);
   color: var(--inverted-text-color);
 }
-.btn-sp:hover {
+.btn:hover {
   cursor: pointer;
 }
+
+.btn-sm {
+  padding: 5px 20px;
+}
+
+.btn-md {
+  padding: 7px 25px;
+}
+
+.btn-lg {
+  padding: 10px 35px;
+}
+
 .landing {
   padding: 0px 100px 0px 100px;
   height: 90vh;
@@ -98,23 +109,6 @@ nav ul li a {
   padding-bottom: 50px;
 }
 
-.btn-more {
-  width: 180px;
-  margin-top: 35px;
-  margin-bottom: 110px;
-  padding: 12px;
-  border: 0;
-  border-radius: 5px;
-  color: rgb(255,255,255);
-  background: var(--custom-gradient);
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
-  transition: 0.3s ease;
-}
-.btn-more:hover {
-  cursor: pointer;
-  transition: 0.4s ease;
-}
 .img-bottom {
   position: absolute;
   z-index: -100;
