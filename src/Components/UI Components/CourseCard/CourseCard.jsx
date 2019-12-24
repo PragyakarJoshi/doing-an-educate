@@ -2,12 +2,12 @@ import React from 'react';
 
 function CourseCard(props) {
 
-  const {title, src} = props;
+  const {name, image} = props;
 
   return (
-    <div className="course" style={{ backgroundImage: `url(${src})` }}>
+    <div className="course" style={{ backgroundImage: `url(${image})` }}>
       <div className="overlay">
-        <p className="course-name">{title}</p>
+        <p className="course-name">{name}</p>
       </div>
     </div>
   );
