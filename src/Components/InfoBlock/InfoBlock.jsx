@@ -7,7 +7,7 @@ function InfoBlock({ infos }) {
       <div className="about-container">
         <p className="section-title">Why choose us?</p>
         <p class="section-subtitle">Our system of Improvised Learning ensures your complete growth</p>
-        <br />
+        <br /><br />
         {infos.map((info) => {
           const { id, ...rest } = info;
           return (

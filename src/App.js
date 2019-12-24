@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
+import content from './constants/content.json';
 
 import Navbar from './Components/Navbar';
 import Landing from './Components/Landing';
 import InfoBlock from './Components/InfoBlock';
-
-import content from './constants/content.json';
 
 function App() {
   return (

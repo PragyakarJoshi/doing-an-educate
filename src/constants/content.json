@@ -25,35 +25,35 @@
       "id": "C001",
       "name": "UI/UX Design",
       "description": "Learn design focused on user interface and user experience",
-      "price": "799",
+      "price": "$799",
       "image": "images/courses/design.jpg"
     },
     {
       "id": "C002",
       "name": "Machine Learning",
       "description": "Learn machine learning concepts with Python ",
-      "price": "999",    
+      "price": "$999",    
       "image": "images/courses/ml.jpg"
     },
     {
       "id": "C003",
       "name": "Virtual Reality",
       "description": "Learn virtual reality learn virtual reality virtual reality",
-      "price": "999",    
+      "price": "$999",    
       "image": "images/courses/vr.jpg"
     },
     {
       "id": "C004",
       "name": "Android",
       "description": "Learn android application development with material design",
-      "price": "699",    
+      "price": "$699",    
       "image": "images/courses/android.jpg"
     },
     {
       "id": "C005",
       "name": "Data Science",
       "description": "Learn data science from market experts",
-      "price": "999",    
+      "price": "$999",    
       "image": "images/courses/ds.jpg"
     }
   ]
