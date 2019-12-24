@@ -1,12 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Card from '../UI Components/Card';
 
-function InfoBlock({ infos }) {
+InfoBlock.propTypes = {
+  infos: PropTypes.array.isRequired
+};
+
+function InfoBlock(props) {
+
+  const { infos } = props;
+
   return (
     <div className="about-section">
       <div className="about-container">
         <p className="section-title">Why choose us?</p>
-        <p class="section-subtitle">Our system of Improvised Learning ensures your complete growth</p>
+        <p className="section-subtitle">Our system of Improvised Learning ensures your complete growth</p>
         <br /><br />
         {infos.map((info) => {
           const { id, ...rest } = info;

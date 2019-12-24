@@ -1,7 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+Card.propTypes = {
+  info: PropTypes.shape({
+    title: PropTypes.string,
+    info: PropTypes.string,
+    src: PropTypes.string
+  })
+}
 
 function Card(props) {
+
   const { title, info, src } = props.info;
+  
   return (
     <div className="card">
       <div className="img-container">

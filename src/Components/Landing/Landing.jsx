@@ -1,7 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Button from '../UI Components/Button';
 
-function Landing({ tagline }) {
+Landing.propTypes = {
+  tagline: PropTypes.string.isRequired
+};
+
+function Landing(props) {
+  
+  const { tagline } = props;
+
   return (
     <div className="landing">
       <div className="landing-content">

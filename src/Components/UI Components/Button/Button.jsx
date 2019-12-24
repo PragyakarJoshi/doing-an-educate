@@ -1,4 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+  size: PropTypes.string,
+  clickHandler: PropTypes.func.isRequired
+};
 
 function Button(props) {
 
@@ -26,5 +33,6 @@ function Button(props) {
     </span>
   )
 }
+
 
 export default Button;

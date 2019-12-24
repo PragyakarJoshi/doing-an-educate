@@ -1,4 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+CourseCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired
+}
 
 function CourseCard(props) {
 
